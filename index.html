@@ -1,11 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <script src="./app.js"> </script>
-</body>
+    <style>
+      body {
+        text-align: center;
+        .Red-btn {
+          background-color: red;
+          color: white;
+          width: 60px;
+          border-radius: 3px;
+        }
+        .blue-btn {
+          background-color: blue;
+          color: white;
+          width: 60px;
+          border-radius: 3px;
+        }
+        .Green-btn {
+          background-color: green;
+          color: white;
+          width: 60px;
+          border-radius: 3px;
+        }
+        .purple-btn {
+          background-color: purple;
+          width: 60px;
+          color: white;
+          border-radius: 3px;
+        }
+        .yellow-btn {
+          background-color: yellow;
+          width: 60px;
+          color: white;
+          border-radius: 3px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>JS Color Change Assignment</h1>
+    <button class="Red-btn" onclick="colorChangeRed()">Red</button>
+    <button class="blue-btn" onclick="colorChangeBlue()">Blue</button>
+    <button class="Green-btn" onclick="colorChangeGreen()">Green</button>
+    <button class="purple-btn" onclick="colorChangePurple()">Purple</button>
+    <button class="yellow-btn" onclick="colorChangeYellow()">Yellow</button>
+    <script src="./app.js"></script>
+  </body>
 </html>
